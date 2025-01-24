@@ -9,10 +9,10 @@
     --app-header-background-color: #fff;
     --app-header-text-color: #0b0f19;
     --app-header-menu-text-color: #33354d;
-    --app-button-background-color: #565656;
+    --app-button-background-color: #257ee4;
     --app-button-text-color: #fff;
     --app-button-hover-background-color: #fff;
-    --app-button-hover-text-color: #565656;   
+    --app-button-hover-text-color: #257ee4;   
     --app-footer-background-color: #0b0f19;
     --app-footer-text-color: #fff;
 }
@@ -189,6 +189,11 @@ nav ul li a:hover {
 /* ------------------------------- */
 /* MAIN - HERO BANNER              */
 /* ------------------------------- */
+.heading1 {
+
+    backdrop-filter: blur(10px); /* Adjust pixel value for desired blur intensity */ 
+
+}
 
 
 #hero-banner {
@@ -225,6 +230,11 @@ h1.h-title {
     color: var(--app-body-background-color);
 }
 
+h1.h-title1 {
+    font-size: 55px;
+    color: var(--app-body-background-color);
+}
+
 .about-text {
     font-size: 18px;
     font-weight: 500;
@@ -240,7 +250,7 @@ h1.h-title {
     font-size: 16px;
     border-radius: 10px;
     margin-top: 40px;
-    box-shadow: 0 0.5rem 1.125rem -0.5rem rgba(140, 141, 151, 0.9);
+    box-shadow: 0 0.5rem 1.125rem -0.5rem #257ee4;
     color: var(--app-button-text-color);
     background-color: var(--app-button-background-color);
     transition: all 0.25s ease-in-out;
@@ -368,7 +378,7 @@ h1.h-title {
     width: 100%;
     height: 100%;
     padding: 2em 1.5em;
-    background: linear-gradient(#ffffff 50%, #737383 50%);
+    background: linear-gradient(#ffffff 50%, #257ee4 50%);
     background-size: 100% 200%;
     background-position: 0 2.5%;
     border-radius: 5px;
@@ -620,7 +630,7 @@ h1.h-title {
     letter-spacing: 0.2px;
     color: var(--app-button-text-color);
     background-color: var(--app-button-background-color);
-    box-shadow: 0 0.5rem 1.125rem -0.5rem rgba(84, 84, 87, 0.9);
+    box-shadow: 0 0.5rem 1.125rem -0.5rem rgb(99 102 241 / 90%);
     border: 2px solid;
     border-color: var(--app-button-background-color);
     margin-top: 20px;
@@ -715,7 +725,7 @@ h1.h-title {
   }
   
   .card:hover {
-    background: linear-gradient(#33354d, #6366f1);
+    background: linear-gradient(#33354d, #3e91c2);
     color: #ffffff;
   }
 
